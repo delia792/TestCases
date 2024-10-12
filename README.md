@@ -33,8 +33,9 @@ User should not be able to login and receive this message "You entered the wrong
 
 **Test Data:**
 
-user: deliamarinapavel & parola: parolaPP! - With correct user and wrong password 
-user: ioana & parola: parola - With wrong user and correct password 
+user: deliamarinapavel & parola: parolaPP! - With wrong user and correct password 
+
+user: zinkadesign & parola: parola - With correct user and wrong password 
 
 **Pre-conditions**
 User should have a valid account.
