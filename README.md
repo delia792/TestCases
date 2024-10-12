@@ -119,7 +119,8 @@ As a user I want to delete a picture from my Facebook profile
 
 **Then** he will be able to confirm and delete the picture
 
-**Expected result:**
+**Expected results:**
+
 **G:** The user successfully sees his picture 
 
 **W:** The user successfully accesses the picture, 3 points section and presses the Delete button
