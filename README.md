@@ -38,4 +38,21 @@ user: deliamarinapavel & parola: parolaPP! - With wrong user and correct passwor
 user: zinkadesign & parola: parola - With correct user and wrong password 
 
 **Pre-conditions**
-User should have a valid account.
+User should have a valid account. 
+
+------------------------
+
+**Description:** 
+Verify the pop-up display for email subscription to reveive an e-book when the user visits the website.
+
+**Steps to Reproduce:**
+1. Open https://thequeensinktattoo.com
+2. Wait 5 seconds and observe the interface behavior when the page loads.
+
+
+**Expected result:**
+1. Upon accessing the website's homepage , a pop-up appers prompting the user to enter their email address to receive an e-book;
+2. The pop-up should contain an input field for the name, email address and button "Download e-book';
+3. The user should be able to fill in the fields or to close the pop-up by clicking a close button (e.g. X) without affecting the functionality of the page.  
+
+
