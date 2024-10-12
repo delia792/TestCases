@@ -43,7 +43,7 @@ User should have a valid account.
 ------------------------
 
 **Description:** 
-Verify the pop-up display for email subscription to reveive an e-book when the user visits the website.
+Verify the pop-up display for email subscription to receive an e-book when the user visits the website https://thequeensinktattoo.com.
 
 **Steps to Reproduce:**
 1. Open https://thequeensinktattoo.com
@@ -55,4 +55,27 @@ Verify the pop-up display for email subscription to reveive an e-book when the u
 2. The pop-up should contain an input field for the name, email address and button "Download e-book';
 3. The user should be able to fill in the fields or to close the pop-up by clicking a close button (e.g. X) without affecting the functionality of the page.  
 
+------------------------
 
+**Description:** 
+Check email submission functionality for e-book subscription using valid credetials.
+
+**Steps to Reproduce:**
+1. Open https://thequeensinktattoo.com; 
+2. Wait fot the pop-up to appear; 
+3. Enter the name and the email address in the name/email input fields;
+4. Click on "Download e-book" button;
+5. Observe the behavior after clicking submit. 
+
+**Expected result:**
+1. After clicking the "Download E-book" button, a confirmation message should appear - Thanks for your interest!
+Please, check your inbox, you should have received an email with instructions to download the Guide "How to care of your new tattoo".
+If you don't find our message there, please also check your SPAM folder. - indicating that the email was successfully submitted.
+2. The email should receive a confirmation email with the button "Download the guide".
+3. There should be no errors or unexpected page behavior after submission. 
+
+**Test Data:**
+email: deliamarinapavel@yahoo.com 
+
+**Pre-conditions**
+The email entered should be valid and functional.  
