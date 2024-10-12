@@ -78,4 +78,27 @@ If you don't find our message there, please also check your SPAM folder. - indic
 email: deliamarinapavel@yahoo.com 
 
 **Pre-conditions**
-The email entered should be valid and functional.  
+The email entered should be valid and functional. 
+
+------------------------
+
+**Description:** 
+Check email submission functionality for e-book subscription using an invalid email address.
+
+**Steps to Reproduce:**
+1. Open https://thequeensinktattoo.com; 
+2. Wait fot the pop-up to appear; 
+3. Enter the name and an invalid email address in the name/email input fields;
+4. Click on "Download e-book" button;
+5. Observe the behavior after clicking submit. 
+
+**Expected result:**
+1. After clicking the "Download E-book" button, a message should appear "Please enter a valid email".
+3. The form should not be submitted and no confirmation email should be sent.
+4. The user should remain on the current page with the pop-up still visible, allowing them to correct the email input.  
+
+**Test Data:**
+email: paveldelia709@yahoo 
+
+------------------------ 
+
