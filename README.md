@@ -18,3 +18,23 @@ User should be able to login and is redirected to his profile page.
 **Test Data:**
 user: zinkadesign
 parola: parolaPP!
+
+------------------------
+
+**Description:** 
+Check if the login doesn't work when a user enters the incorrect credentials.
+
+**Steps to Reproduce:**
+1. Open https://auth.emag.ro/user/login
+2. Add incorrect user/password
+3. Click "login" button
+
+**Expected result:**
+User should not be able to login and receive this message "You entered the wrong password or email address. Please fill in again." 
+
+**Test Data:**
+user: deliamarinapavel
+parola: parolaPP!
+
+**Pre-conditions**
+User should have a valid account.
