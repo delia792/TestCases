@@ -16,8 +16,7 @@ Check if the login works when a user enters the correct credentials.
 User should be able to login and is redirected to his profile page.
 
 **Test Data:**
-user: zinkadesign
-parola: parolaPP!
+user: zinkadesign & parola: parolaPP!
 
 ------------------------
 
@@ -33,8 +32,7 @@ Check if the login doesn't work when a user enters the incorrect credentials.
 User should not be able to login and receive this message "You entered the wrong password or email address. Please fill in again." 
 
 **Test Data:**
-user: deliamarinapavel
-parola: parolaPP!
+user: deliamarinapavel & parola: parolaPP!
 
 **Pre-conditions**
 User should have a valid account.
